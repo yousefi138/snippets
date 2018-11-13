@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+################################################################################
+# File: 
+# Purpose: 
+#	 
+#		
+# Created: 
+# Location: 
+# Data in:
+# Data out:
+#	
+# Modified: 
+#
+################################################################################
+rm(list=ls())
+gc()
+
+packages <- c("gdata")
+lapply(packages, require, character.only=T)
+
+################################################################################
+# SET WD
+	getwd()
+	setwd()	
+################################################################################
+
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>header</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
